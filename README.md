@@ -138,14 +138,3 @@ brew install ffmpeg
 - **FFmpeg not found**: Install FFmpeg as shown above
 - **No files to concatenate**: Check that your drive contains files in the expected directory structure
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-[Add your license information here]
