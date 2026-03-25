@@ -1,14 +1,16 @@
 # Concat Video Tool
 
 A command-line tool for concatenating MP4 video files from external drives (USB drives, external HDDs) on Linux systems. This tool automatically detects mounted external drives, organizes video files by date, and creates concatenated video files using FFmpeg.
-
+## Todo
+- [ ] Test on windows machine
+- [ ] Test on mac
 ## Features
 
 - **Automatic Drive Detection**: Scans for mounted external drives on Linux systems
 - **Date-based Organization**: Groups video files by year, month, day, and hour
 - **Parallel Processing**: Uses goroutines for efficient concatenation of multiple video sets
 - **FFmpeg Integration**: Leverages FFmpeg for high-quality video concatenation
-- **Cross-platform Flags**: Supports both Windows and Linux modes (Linux implementation available)
+
 
 ## Prerequisites
 
