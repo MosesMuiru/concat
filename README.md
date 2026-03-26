@@ -88,9 +88,13 @@ The tool expects source files organized as:
 │       │   ├── 2024/
 │       │   │   ├── 01/
 │       │   │   │   ├── 15/
-│       │   │   │   │   ├── 10/  # Contains MP4 files for 10 AM
-│       │   │   │   │   └── 11/  # Contains MP4 files for 11 AM
+│       │   │   │   │   ├── 10/
+|       │   |   │   │   │   │   ├── 107958935646/ # Contains MP4 files in 1 mins format
+|       │       │   │   │   │   └── 1054358960798/  # Contains MP4 files in 1 mins format
 │       │   │   │   └── 16/
+│       │   │   │   │   ├── 11/
+|       │   |   │   │   │   │   ├── 117958935646/ # Contains MP4 files in 1 mins format
+|       │       │   │   │   │   └── 1154358960798/  # Contains MP4 files in 1 mins format
 │       │   │   └── 02/
 │       │   └── ...
 │       └── category2/
